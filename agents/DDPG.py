@@ -40,7 +40,7 @@ class DDPG():
         self.memory = ReplayBuffer.ReplayBuffer(self.buffer_size, self.batch_size)
 
         # Algorithm parameters
-        self.gamma = 0.99  # discount factor
+        self.gamma = 0.9  # discount factor
         self.tau = 0.01  # for soft update of target parameters
 
         self.total_reward = 0.0

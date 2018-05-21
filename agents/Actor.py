@@ -20,7 +20,7 @@ class Actor:
         self.action_low = action_low
         self.action_high = action_high
         self.action_range = self.action_high - self.action_low
-
+        self.model = ""
         # Initialize any other variables here
 
         self.build_model()

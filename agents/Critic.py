@@ -14,7 +14,7 @@ class Critic:
         """
         self.state_size = state_size
         self.action_size = action_size
-
+        self.model = ""
         # Initialize any other variables here
 
         self.build_model()
